@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { TimeProvider } from './Components/time-context';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TimeProvider>
+      <App />
+    </TimeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
