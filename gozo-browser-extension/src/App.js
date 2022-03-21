@@ -5,13 +5,14 @@ function App() {
   return (
     <div className="app">
 
-        <Weather />
-        <div class="center">
-            <Clock />
-            <Greetings />
-            <MainFocus />
-            <Quote />
-        </div>
+      <Weather />
+      <div class="center">
+
+        <Clock />
+        <Greetings />
+        <MainFocus />
+        <Quote />
+      </div>
     </div>
   );    
 }
