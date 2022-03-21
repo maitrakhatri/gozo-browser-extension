@@ -5,7 +5,7 @@ export function Greetings() {
 
     const {time} = useTime(); 
 
-    const [greet, setGreet] = useState("Good Morning");
+    const [greet, setGreet] = useState("");
 
     useEffect(() => {
         time.slice(0,-6) >11? setGreet("Good Evening") : setGreet("Good Morning")
