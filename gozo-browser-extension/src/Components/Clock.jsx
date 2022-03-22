@@ -1,5 +1,13 @@
+import { useEffect } from "react";
+import { useTime } from "./time-context";
+
 export function Clock() {
+
+    const {time, getTime} = useTime()
+
+    useEffect(getTime)
+    
     return <div class="clock">
-        <h1>10:29</h1>
+        <h1>{time.slice(0, -3)}</h1>
     </div>;
 }
