@@ -6,7 +6,7 @@ export function MainFocus() {
     function EnterMainFocus() {
         return (
             <div className="enter-main-focus">
-                <h1>What's your main focus</h1>
+                <h1>What's your main focus for today ?</h1>
                 <h1><input type="text" onKeyPress={mainFocusHandler}/></h1>
             </div>
         )
