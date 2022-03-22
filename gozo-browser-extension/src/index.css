@@ -84,3 +84,18 @@ input, input:hover, input:focus, input:active {
     width: 65%;
     height: 100%;
 }
+
+button {
+    background: #ffffff;
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 1rem;
+}
+
+.show-main-focus {
+    display: flex;
+    align-items: center;
+}
