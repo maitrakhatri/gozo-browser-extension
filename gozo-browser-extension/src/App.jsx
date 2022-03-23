@@ -20,7 +20,7 @@ function App() {
   const wallpaperURL = getRandomWallpaper(wallpapers)
 
   return (
-    <div className="app" style={{backgroundImage: `url("${wallpaperURL}")`}}>
+    <div className="app" style={{backgroundImage: `url("${wallpaperURL}")`, backgroundSize: "cover"}}>
 
       {username === null? <UserOnboarding /> : <InUseApp />}
       
