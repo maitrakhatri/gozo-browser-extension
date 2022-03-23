@@ -8,13 +8,13 @@ export function Greetings() {
     const [username, setUsername] = useState("")
 
     useEffect(() => {
-        if(time.slice(0,-6) < 11) {
+        if(time.slice(0,-6) <= 11) {
             setGreet("Good Morning")
         }
-        if(time.slice(0,-6) >11 && time.slice(0,-6) < 17 ) {
+        if(time.slice(0,-6) > 11 && time.slice(0,-6) < 17 ) {
             setGreet("Good Afternoon")
         }
-        if(time.slice(0,-6) > 17) {
+        if(time.slice(0,-6) >= 17) {
             setGreet("Good Evening")
         }
          
