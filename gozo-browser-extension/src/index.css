@@ -98,4 +98,5 @@ button {
 .show-main-focus {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
