@@ -16,4 +16,4 @@ const wallpapers = [
     "../assets/wallpapers/974-1920x1080.jpg",
 ]
 
-export { wallpapers }
+export default wallpapers

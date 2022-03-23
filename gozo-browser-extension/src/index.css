@@ -11,7 +11,7 @@ html, body, .app {
 }
 
 .app {
-    background-image: url("https://picsum.photos/1920/1080");
+    /* background-image: url("https://picsum.photos/1920/1080"); */
     display: flex;
     flex-direction: column;
     justify-content: center;
