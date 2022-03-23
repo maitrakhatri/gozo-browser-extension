@@ -38,7 +38,7 @@ export function MainFocus() {
         if(focusObj != null) {
             const sameDay = now.getDate() === focusObj.date
             if(!sameDay) {
-                localStorage.clear()
+                localStorage.removeItem('mainFocus')
             }
         }
     }
@@ -59,7 +59,7 @@ export function MainFocus() {
 
     useEffect(() => {
         clearYesterdaysFocus()
-    }, [])
+    }, [displayFocus])
 
     return <div class="main-focus">
         {displayFocus === null || edit ? <EnterMainFocus/> : <ShowMainFocus />}

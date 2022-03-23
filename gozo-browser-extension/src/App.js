@@ -1,18 +1,22 @@
+import { useEffect, useState } from 'react';
 import './App.css';
-import {Weather, Clock, Greetings, MainFocus, Quote} from "./Components/components-index"
+import InUseApp from './InUseApp';
+import UserOnboarding from './UserOnboarding';
 
 function App() {
+
+  const [username, setUsername] = useState(null)
+
+  useEffect(() => {
+    const name = localStorage.getItem("name")
+    setUsername(name)
+  },[])
+
   return (
     <div className="app">
 
-      <Weather />
-      <div class="center">
-
-        <Clock />
-        <Greetings />
-        <MainFocus />
-        <Quote />
-      </div>
+      {username === null? <UserOnboarding /> : <InUseApp />}
+      
     </div>
   );    
 }
