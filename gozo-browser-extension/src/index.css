@@ -76,7 +76,7 @@ input, input:hover, input:focus, input:active {
     font-size: xx-large;
 }
 
-.weather > .loca {
+.weather > .location {
     grid-area: loca;
 }
 
