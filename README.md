@@ -10,6 +10,9 @@ gozo Main Focus is a Browser Extension for new tab. It gets activated when you o
 - Main focus of the day get removed automatically only after the date changes
 - Wallpaper and Quotes changes on every refresh
 
+# Try it 
+[Add to firefox](https://addons.mozilla.org/en-US/firefox/addon/gozo-main-focus/)
+
 # Screens
 ## User Onboarding
 ![Screenshot 2022-03-23 at 18-13-29 gozo Main Focus](https://user-images.githubusercontent.com/54719132/159702360-d7805ff8-ca71-41cb-b555-a0a4ade23056.png)
