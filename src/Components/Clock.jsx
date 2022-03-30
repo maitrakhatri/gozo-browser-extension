@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useTime } from "./time-context";
+import { useTime } from "../Context/time-context";
 
 export function Clock() {
 

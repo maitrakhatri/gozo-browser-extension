@@ -1,4 +1,4 @@
-export default function UserOnboarding() {
+export function UserOnboarding() {
 
     function nameHandler(e) {
         if(e.key === 'Enter'){
