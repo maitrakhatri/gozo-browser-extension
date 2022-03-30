@@ -1,6 +1,6 @@
-import {Weather, Clock, Greetings, MainFocus, Quote} from "./Components/components-index"
+import {Weather, Clock, Greetings, MainFocus, Quote} from "../Components/index"
 
-export default function InUseApp() {
+export function InUseApp() {
     return (
         <div className="InUseApp">
             <Weather />

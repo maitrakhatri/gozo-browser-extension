@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
-import './App.css';
-import InUseApp from './InUseApp';
-import UserOnboarding from './UserOnboarding';
-import wallpapers from "./wallpaper"
+import  {InUseApp, UserOnboarding} from "./Pages/index"
+import wallpapers from "./Database/wallpaper"
 
 function App() {
 

@@ -1,4 +1,4 @@
-import quotesDB from "../quotes.json"
+import quotesDB from "../Database/quotes.json"
 
 export function Quote() {
 
