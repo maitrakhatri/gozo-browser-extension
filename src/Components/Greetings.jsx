@@ -21,7 +21,7 @@ export function Greetings() {
         setUsername(localStorage.getItem("name"))
     },[time])
 
-    return <div class="greeting">
+    return <div className="greeting">
         <h1>{greet}, {username} !!</h1>
     </div>;
 }

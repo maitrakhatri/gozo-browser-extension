@@ -4,7 +4,7 @@ export function InUseApp() {
     return (
         <div className="InUseApp">
             <Weather />
-            <div class="center">
+            <div className="center">
             
               <Clock />
               <Greetings />

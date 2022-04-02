@@ -7,7 +7,7 @@ export function Clock() {
 
     useEffect(getTime)
     
-    return <div class="clock">
+    return <div className="clock">
         <h1>{time.slice(0, -3)}</h1>
     </div>;
 }

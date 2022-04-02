@@ -27,9 +27,9 @@ export function Weather() {
         })
     },[lat, lon, location, icon])
         
-    return <div class="weather">
-        <div class="icon"><img src={`https://openweathermap.org/img/wn/${icon}@2x.png`}/></div>
-        <div class="temp">{temp}<span>&#176;</span></div>
-        <div class="location">{location}</div>
+    return <div className="weather">
+        <div className="icon"><img src={`https://openweathermap.org/img/wn/${icon}@2x.png`}/></div>
+        <div className="temp">{temp}<span>&#176;</span></div>
+        <div className="location">{location}</div>
     </div>;
 }

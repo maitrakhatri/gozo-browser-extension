@@ -12,7 +12,7 @@ export function Quote() {
     const displayQuote = getQuote.quote;
     const author = getQuote.author;
 
-    return <div class="quote">
+    return <div className="quote">
         <q>{displayQuote}</q> ~ {author}
     </div>;
 }
