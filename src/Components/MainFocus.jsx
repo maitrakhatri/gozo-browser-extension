@@ -61,7 +61,7 @@ export function MainFocus() {
         clearYesterdaysFocus()
     }, [displayFocus])
 
-    return <div class="main-focus">
+    return <div className="main-focus">
         {displayFocus === null || edit ? <EnterMainFocus/> : <ShowMainFocus />}
     </div>;
 }
