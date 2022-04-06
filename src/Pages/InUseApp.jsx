@@ -1,8 +1,9 @@
-import {Weather, Clock, Greetings, MainFocus, Quote} from "../Components/index"
+import {Weather, Clock, Greetings, MainFocus, Quote, Firefox} from "../Components"
 
 export function InUseApp() {
     return (
         <div className="InUseApp">
+            <Firefox />
             <Weather />
             <div className="center">
             

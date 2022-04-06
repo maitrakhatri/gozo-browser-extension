@@ -56,6 +56,18 @@ input, input:hover, input:focus, input:active {
     margin-top: 5rem;
 }
 
+.firefox {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+#go-to-firefox {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+}
+
 .weather {
     display: grid;
     place-items: center;
