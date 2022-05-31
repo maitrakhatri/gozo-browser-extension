@@ -1,18 +1,18 @@
-import quotesDB from "../Database/quotes.json"
+import { useEffect, useState } from "react";
+import quotesDB from "../Database/quotes.json";
 
 export function Quote() {
+  const allQuotes = quotesDB.quotes;
 
-    const allQuotes = quotesDB.quotes;
+  function getRandomQuote() {
+    return allQuotes[Math.floor(Math.random() * allQuotes.length)];
+  }
 
-    function getRandomQuote(allQuotes) {
-        return allQuotes[Math.floor(Math.random()*allQuotes.length)]
-    }
+  const [quote, setQuote] = useState(getRandomQuote());
 
-    const getQuote = getRandomQuote(allQuotes);
-    const displayQuote = getQuote.quote;
-    const author = getQuote.author;
-
-    return <div className="quote">
-        <q>{displayQuote}</q> ~ {author}
-    </div>;
+  return (
+    <div className="quote">
+      <q>{quote.quote}</q> ~ {quote.author}
+    </div>
+  );
 }
